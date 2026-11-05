@@ -7,13 +7,25 @@ def calculate_average(numbers):
 
 print("<3 SIMPLE NUMBER CALCULATOR <3")
 
-count = int(input("How many numbers would you like to enter?"))
+while True:
+    try:
+        count = int(input("How many numbers would you like to enter?"))
+        if count > 0:
+            break
+        print("Please enter a number greater than zero.")
+    except ValueError:
+        print("Sorry gorgeous. Please enter a whole number.")
 
 numbers = []
 
 for i in range(count):
-    number = float(input("Enter number: "))
-    numbers.append(number)
+    while True:
+        try:
+            number = float(input("Enter number: "))
+            numbers.append(number)
+            break
+        except ValueError:
+            print("Sorry gorgeous. Please enter a valid number.")
 
 total = sum(numbers)
 average = calculate_average(numbers)

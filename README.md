@@ -1,8 +1,6 @@
 # BAN701-Assignment8
 Simple Number Calculator Python Project
 
-# Simple Number Calculator
-
 ## Project Description
 A simple Python program that collects numbers from the user and calculates the total and average.
 
@@ -13,16 +11,18 @@ A simple Python program that collects numbers from the user and calculates the t
 - Displays the results.
 
 ## AI Tool Used
-ChatGPT (will be used in Stage 2).
+ChatGPT.
 
 ## AI Assistance
-AI assistance will be used to improve the program in Stage 2.
+ChatGPT helped add input validation to prevent the program from crashing when users enter invalid information.
 
 ## New or Modified Features
-Additional features will be documented in Stage 2.
+- Checks that the number of entries is greater than zero.
+- Prevents letters from being entered instead of numbers.
+- Asks users to try again when an invalid entry is provided.
 
 ## Evaluation of AI Output
-Will be completed in Stage 2.
+I accepted the AI recommendations because they improved the program by handling invalid entries and making it easier to use.
 
 ## How to Run the Program
 1. Open main.py in Visual Studio Code.
