@@ -29,10 +29,16 @@ for i in range(count):
 
 total = sum(numbers)
 average = calculate_average(numbers)
+minimum = min(numbers)
+maximum = max(numbers)
+number_range = maximum - minimum
 
 print("\n<3 RESULTS <3")
 print("Numbers entered:", numbers)
 print("Total:", total)
 print("Average:", average)
+print("Minimum:", minimum)
+print("Maximum:", maximum)
+print("Range:", number_range)
 
 print("\nThank you for using the calculator!")
