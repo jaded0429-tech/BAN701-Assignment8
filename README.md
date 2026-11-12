@@ -29,3 +29,11 @@ I accepted the AI recommendations because they improved the program by handling 
 2. Click Run Python File.
 3. Enter the requested numbers.
 4. View the total and average.
+
+## Feature Development Comparison
+
+This assignment provided an opportunity to compare two approaches to developing Python features. The Enhanced Input Validation feature uses the math.isfinite() function to reject invalid numerical values, including NaN and infinity. The Additional Statistical Calculations feature used a more AI-primary approach. AI helped implement calculations for the minimum, maximum, and range of the numbers entered.
+
+Both features were tested using multiple test cases. The manual validation feature was tested with invalid and valid inputs, while the statistical feature was tested with different number combinations, including identical values. Both features passed their tests and were successfully merged into the main branch through separate pull requests.
+
+The AI-generated statistical code worked as expected on the first implementation. I reviewed the changes, examined the Git diff, and tested the results before committing. This process demonstrated the importance of reviewing AI-generated code rather than assuming it is correct. Overall, the assignment helped me understand Git branching, commits, pull requests, code reviews, testing, and how AI can assist with software development.
