@@ -1,3 +1,5 @@
+import math
+
 # Simple Number Calculator
 # Welcome to this program that collects numbers and calculates their total and average.
 
@@ -22,8 +24,12 @@ for i in range(count):
     while True:
         try:
             number = float(input("Enter number: "))
-            numbers.append(number)
-            break
+
+            if math.isfinite(number):
+                numbers.append(number)
+                break
+            else:
+                print("Please enter a valid finite number.")
         except ValueError:
             print("Sorry gorgeous. Please enter a valid number.")
 
